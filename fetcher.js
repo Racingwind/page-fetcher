@@ -15,6 +15,6 @@ request(url, (error, response, body) => {
       throw err;
     }
     const fileLength = body.length
-    console.log(`Downloaded and saved ${fileLength} to ${filePath}`);
+    console.log(`Downloaded and saved ${fileLength} bytes to ${filePath}`);
   });
 });
